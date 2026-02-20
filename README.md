@@ -1,73 +1,104 @@
-# React + TypeScript + Vite
+# Eungi Hong Portfolio (v4)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio highlights:
 
-## React Compiler
+- Professional profile and software engineering focus
+- Work experience and technical skill stack
+- Selected projects with external links (prototype, pitch deck, publication, demo)
+- Contact information and Binu user survey call-to-action
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Pages
 
-## Expanding the ESLint configuration
+- Home (`/`)
+  - Intro and featured Binu section
+  - External links + featured image
+- About (`/about`)
+  - Skills, work experience, and “Why Choose Me” section
+- Projects (`/projects`)
+  - Data-driven project cards from `src/data/projects.ts`
+  - Link buttons rendered from each project's `links` array
+- Contact (`/contact`)
+  - Email, LinkedIn, phone, and Binu user survey link
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 19
+- TypeScript
+- Vite
+- React Router
+- CSS (single stylesheet: `src/index.css`)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1) Install dependencies
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2) Start development server
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+Open the local URL shown in terminal (usually `http://localhost:5173`).
+
+## Available Scripts
+
+- `npm run dev` — start local dev server
+- `npm run build` — type-check and build production files into `dist/`
+- `npm run preview` — preview production build locally
+- `npm run lint` — run ESLint
+
+## Editing Content
+
+- Project cards and project links:
+  - `src/data/projects.ts`
+- Work experience:
+  - `src/data/workExperience.ts`
+- Page content:
+  - `src/pages/HomePage.tsx`
+  - `src/pages/AboutPage.tsx`
+  - `src/pages/ProjectsPage.tsx`
+  - `src/pages/ContactPage.tsx`
+
+## Deploy
+
+This is a static Vite app, so deploy to any static host.
+
+### Option A: Vercel (recommended)
+
+1. Push this repo to GitHub.
+2. Import the repo in Vercel.
+3. Use:
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+4. Deploy.
+
+### Option B: Netlify
+
+1. Connect your repo in Netlify.
+2. Use:
+   - Build Command: `npm run build`
+   - Publish Directory: `dist`
+3. Deploy.
+
+## SPA Routing Note (Important)
+
+Because this app uses `BrowserRouter`, direct refreshes on routes like `/projects` can return 404 on some hosts unless rewrite rules are configured.
+
+- Vercel: add a rewrite to route all paths to `/index.html`
+- Netlify: add a `_redirects` file with:
+
+```txt
+/* /index.html 200
+```
+
+## License
+
+This project is for personal portfolio use.
