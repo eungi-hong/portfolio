@@ -15,8 +15,7 @@ export const workExperiences: WorkExperience[] = [
     location: 'Singapore, Singapore',
     stack: ['Python', 'Microsoft Azure'],
     highlights: [
-      'Designed and refined backend services and API integrations for production workflows.',
-      'Supported database management and cloud infrastructure optimization initiatives.',
+      'Work spans fullstack development and cloud infrastructure optimization',
     ],
   },
   {
