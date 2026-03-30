@@ -26,7 +26,7 @@ export const projects: Project[] = [
       },
       {
         label: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1mAj32ZryXMc9RElFv_5V5NfYUEd-5Jai/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1uB7U3TTiGJy0NiUXZ6AGPstuzWQlSZHr/view?usp=sharing',
       },
       {
         label: 'User Survey',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
       },
       {
         label: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1uB7U3TTiGJy0NiUXZ6AGPstuzWQlSZHr/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/1i6yqfNDGb-n3x0LJMlccogXbT_d7wjGL/view?usp=sharing',
       },
     ],
   },
