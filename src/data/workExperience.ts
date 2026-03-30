@@ -15,7 +15,10 @@ export const workExperiences: WorkExperience[] = [
     location: 'Singapore, Singapore',
     stack: ['Python', 'Microsoft Azure'],
     highlights: [
-      'Work spans fullstack development and cloud infrastructure optimization',
+      'Contributed to the development of an LLM-driven patient-clinician interaction product in a pre-seed medtech startup environment.',
+      'Designed and ran Quality Assurance tests using ambiguous real-world scenarios to evaluate response quality.',
+      'Participated in product discussions with founders and partnership meetings with local and international health-care stakeholders.',
+      'Future work will span designing and refining back-end services, cloud infrastructure optimization, and delivery work with public health institutions.',
     ],
   },
   {
@@ -25,8 +28,7 @@ export const workExperiences: WorkExperience[] = [
     location: 'Seoul, South Korea',
     stack: ['React.js', 'TypeScript', 'JavaScript', 'CSS', 'Prisma ORM', 'GitLab'],
     highlights: [
-      'Implemented frontend features for the Nexon Youth Programming Challenge (NYPC) web platform serving 4,000+ participants.',
-      'Integrated REST APIs and extended backend APIs to support real-time admin-side updates with Prisma ORM.',
+      'Implemented end-to-end features in TypeScript for Nexon Youth Programming Challenge (NYPC) web platform serving 4,000+ participants.',
     ],
   },
 ]

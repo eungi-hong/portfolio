@@ -6,7 +6,7 @@ export function HomePage() {
     <div className="home-sections">
     <section className="hero panel">
       <h1>Hi, I'm Eungi! 👋 </h1>
-      <h2>I'm a Software Engineer passionate about building tech projects and platforms that make a difference in my community.</h2>
+      <h2>I'm an Entrepreneur & Software Engineer passionate about building tech projects and platforms that make a difference in my community.</h2>
       <h3>
         Welcome to my digital portfolio, where I share my projects, skills, and journey as a software engineer 👉
       </h3>

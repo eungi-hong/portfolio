@@ -58,20 +58,19 @@ export function AboutPage() {
           <article className="why-me-card">
             <h4>Fast learner</h4>
             <p>
-              I have studied in three different countries and excelled in diverse academic environments. I adapt quickly to new environments, teams, and challenges.
+              Having studied and worked in different countries, I adapt quickly to new environments, teams, and challenges.
             </p>
           </article>
           <article className="why-me-card">
             <h4>Strong technical growth mindset</h4>
             <p>
-              I focus on writing clean, maintainable code and quickly picking up new tech stacks.
+              What draws me to technology and entrepreneurship is the opportunity to continuously learn and grow.
             </p>
           </article>
           <article className="why-me-card">
             <h4>Clear and reliable communicator</h4>
             <p>
-              I value clear communication, proactive updates, and timely delivery so teammates and
-              stakeholders can move with confidence.
+              I value clear communication, proactive updates, and timely delivery.
             </p>
           </article>
         </div>
