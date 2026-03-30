@@ -37,7 +37,7 @@ export function HomePage() {
               Click to view Mobile App Prototype💡
             </a>
             <a
-              href="https://drive.google.com/file/d/1i6yqfNDGb-n3x0LJMlccogXbT_d7wjGL/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uB7U3TTiGJy0NiUXZ6AGPstuzWQlSZHr/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="article-link"
