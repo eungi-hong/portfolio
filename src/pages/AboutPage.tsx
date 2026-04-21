@@ -62,7 +62,7 @@ export function AboutPage() {
             </p>
           </article>
           <article className="why-me-card">
-            <h4>Strong technical growth mindset</h4>
+            <h4>Strong growth mindset</h4>
             <p>
               What draws me to technology and entrepreneurship is the opportunity to continuously learn and grow.
             </p>
