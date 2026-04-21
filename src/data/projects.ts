@@ -23,7 +23,7 @@ export const projects: Project[] = [
       {
         label: 'BINU Web',
         url: 'https://eungi-hong.github.io/binu-web/#home',
-      }
+      },
       {
         label: 'Mobile App Prototype',
         url: 'https://tinyurl.com/binumobileapp',
