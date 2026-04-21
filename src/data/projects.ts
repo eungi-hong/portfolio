@@ -21,6 +21,10 @@ export const projects: Project[] = [
     stack: ['Swift', 'iOS', 'Firebase', 'BLE'],
     links: [
       {
+        label: 'BINU Web',
+        url: 'https://eungi-hong.github.io/binu-web/#home',
+      }
+      {
         label: 'Mobile App Prototype',
         url: 'https://tinyurl.com/binumobileapp',
       },

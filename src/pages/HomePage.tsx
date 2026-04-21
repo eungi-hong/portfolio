@@ -21,6 +21,7 @@ export function HomePage() {
           Let&apos;s Connect
         </Link>
       </div>
+      <h4 className="personal">*psst... if you wanna get a little more personal, here's a learning log of my recent journey!*</h4>
       </section>
 
     <section className="hero panel">
