@@ -72,7 +72,7 @@ export const projects: Project[] = [
       },
       {
         label: 'Demo- also a WORK IN PROGRESS',
-        url: 'https://novaproject-three.vercel.app/@eungi-hong',
+        url: 'https://novaproject-three.vercel.app/',
       }
     ],
   },
