@@ -64,7 +64,7 @@ export const projects: Project[] = [
       'Creating nova, a blogging platform for fellow performing artists like me log their journey. A WORK IN PROGRESS... stay tuned!',
     imageUrl:
       'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80',
-    stack: ['Python', 'Model Training', 'Image Classification', 'Research'],
+    stack: ['React.js', 'Supabase', 'CSS'],
     links: [
       {
         label: 'Source Code',
