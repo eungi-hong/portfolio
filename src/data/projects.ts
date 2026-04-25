@@ -70,6 +70,10 @@ export const projects: Project[] = [
         label: 'Source Code',
         url: 'https://github.com/eungi-hong/nova',
       },
+      {
+        label: 'Demo- also a WORK IN PROGRESS',
+        url: 'https://novaproject-three.vercel.app/@eungi-hong',
+      }
     ],
   },
   {
