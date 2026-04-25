@@ -21,6 +21,9 @@ export function ContactPage() {
         <a href="https://tinyurl.com/BinuUserSurvey" target="_blank" rel="noreferrer" className="btn btn-ghost">
           Binu User Survey
         </a>
+        <a href="https://github.com/eungi-hong" target="_blank" rel="noreferrer" className="btn btn-ghost">
+          github
+        </a>
       </div>
     </section>
   )
